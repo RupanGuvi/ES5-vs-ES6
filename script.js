@@ -113,3 +113,29 @@ const order = {
 }
 console.log(order);
 */
+
+//! spread Operator
+
+/*
+const arr = ["guvi","geek","fsd"]
+//console.log(...arr);
+
+const arr1 = ["bob","sathya","alice"]
+const arr2 = ["leo","smith"]
+const arr3 = [...arr1,...arr2,...arr]
+console.log(arr3);
+*/
+
+//! rest parameter
+/*
+function test (...c){
+    let even =[]
+    for(var i=0;i<c.length;i++){
+        if(c[i]%2===0){
+            even.push(c[i])
+        }
+    }
+    return even
+}
+console.log(test(12,13,14,15,16));
+*/
